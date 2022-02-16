@@ -1,0 +1,656 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+   
+    
+}
+
+.hero{
+  width: 100%;
+  overflow:hidden;
+  position: relative;
+}
+
+.absolute{
+width: 100%;
+top: 0;
+right: 0;
+position: absolute;
+
+}
+
+.a-link:hover{
+   color: orangered;
+  
+}
+
+.title-form{
+  color:rgb(25, 25, 102);
+}
+
+.form{
+  background: rgb(231, 231, 235);
+}
+
+.tab {
+    overflow: hidden;
+    
+  }
+
+  .orange{
+    background: rgb(243, 129, 22);
+  }
+
+  .orange-color{
+    color: rgb(243, 129, 22);
+  
+  }
+  .blue{
+    background:rgb(54, 54, 75 );
+  }
+  .blue-color{
+    color:rgb(54, 54, 75);
+  }
+
+  .tab button {
+    background: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: 0.3s;
+    width: 150px;
+    border-radius: 10px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background: rgb(243, 129, 22);
+    color: white;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    
+  }
+
+  .d-height{
+    height: auto;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(240, 108, 20);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+      to {opacity: 1}
+  }
+
+  @media only screen and (min-width: 300px) {
+    .hero{
+      width: 100%;
+      overflow:hidden;
+      position: relative;
+      
+  }
+  
+  .absolute{
+    width: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    
+  }
+  video{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 0px;
+}
+  
+  .img-hero{
+      width: 35px;
+      height: 35px;
+  }
+  
+  .text-r{
+          font-size: 6px;
+  }
+
+  .font-principal{
+
+    font-size: 15px;
+
+  }
+
+  .text-p {
+    font-size: 6px;
+  }
+
+  .form{
+    width: 100px;
+    height: 110px;
+  }
+
+.title-form{
+  font-size: 7px;
+}
+
+.form-input{
+  border: 1px solid gray;
+  width: 6px;
+  height: 1px;
+
+}
+
+.form-label{
+  color: rgb(25, 25, 102);
+
+}
+
+.img-about {
+  width: 230px;
+  height: 230px;
+
+}
+.subtitle-text{
+  font-size: 6px;
+}
+
+.text-t{
+   font-size: 14px;
+}
+.parrafo-p{
+   font-size: 6px;
+}
+.thumbnail-img {
+  width: 20px;
+  height: 20px;
+}
+.tab button {
+  background: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: 0.3s;
+  width: 45px;
+  border-radius: 10px;
+  font-size: 5px;
+
+}
+
+.img-lateral{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+  }
+
+  @media only screen and (min-width: 600px) {
+   
+    .hero{
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    video{
+      width: 100%;
+      height: auto;
+    }
+    
+    .absolute{
+      width: 100%;
+      top: 0;
+      right: 0;
+      position: absolute;
+      
+      
+    }
+
+    .img-hero{
+      width: 40px;
+      height: 40px;
+  }
+
+  .text-r{
+    font-size: 10px;
+}
+
+.font-principal{
+
+  font-size: 20px;
+
+}
+.text-p {
+  font-size: 10px;
+}
+
+.form{
+  width: 120px;
+  height: 150px;
+}
+
+.title-form{
+  font-size: 9px;
+}
+
+.form-input{
+   border: 1px solid gray;
+   width: 8px;
+   height: 3px;
+}
+
+.form-label{
+
+}
+
+.img-about {
+  width: 230px;
+  height: 250px;
+
+}
+.subtitle-text{
+  font-size: 6px;
+}
+
+.text-t{
+   font-size: 14px;
+}
+.parrafo-p{
+   font-size: 8px;
+}
+.thumbnail-img {
+  width: 25px;
+  height: 25px;
+}
+.tab button {
+  background: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: 0.3s;
+  width: 55px;
+  border-radius: 10px;
+  font-size: 6px;
+}
+
+.img-lateral{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .hero{
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    video{
+      width: 100%;
+      height: auto;
+    }
+    
+    .absolute{
+      width: 100%;
+      top: 0;
+      right: 0;
+      position: absolute;
+      
+    }
+
+    .img-hero{
+      width: 40px;
+      height: 40px;
+  }
+
+  .text-r{
+    font-size: 10px;
+}
+
+.font-principal{
+
+  font-size: 30px;
+
+}
+
+.text-p {
+  font-size: 12px;
+}
+
+.form{
+  width: 280px;
+  height: 300px;
+}
+.title-form{
+  font-size: 13px;
+}
+
+.img-about {
+  width: 280px;
+  height: 300px;
+
+}
+.subtitle-text{
+  font-size: 9px;
+}
+
+.text-t{
+   font-size: 14px;
+}
+.parrafo-p{
+   font-size: 9px;
+}
+.thumbnail-img {
+  width: 28px;
+  height: 28px;
+}
+
+.tab button {
+  background: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: 0.3s;
+  width: 100px;
+  border-radius: 10px;
+}
+.img-lateral{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+  }
+
+
+@media only screen and (min-width: 991.98px) { 
+
+  .hero{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  video{
+    width: 100%;
+    height: auto;
+  }
+  
+  .absolute{
+    width: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    
+  }
+    .img-hero{
+        width: 50px;
+        height: 50px;
+    }
+    .text-r{
+      font-size: 12px;
+}
+  
+.font-principal{
+
+  font-size: 35px;
+
+}
+.text-p {
+  font-size: 12px;
+}
+
+.form{
+  width: 300px;
+  height: 380px;
+}
+
+.title-form{
+  font-size: 16px;
+}
+
+.img-about {
+  width: 360px;
+  height: 400px;
+
+}
+.subtitle-text{
+  font-size: 12px;
+}
+
+.text-t{
+   font-size: 30px;
+}
+.parrafo-p{
+   font-size: 14px;
+}
+.thumbnail-img {
+  width: 65px;
+  height: 65px;
+}
+.tab button {
+  background: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: 0.3s;
+  width: 140px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+ }
+
+
+@media only screen and (min-width: 1199.98px) { 
+    .img-hero{
+        width: 60px;
+        height: 60px;
+    }
+    
+.hero{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+video{
+  width: 100%;
+  height: auto;
+}
+
+.absolute{
+  width: 100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  
+}
+.font-principal{
+
+  font-size: 38px;
+
+}
+.text-p {
+  font-size: 12px;
+}
+
+.form{
+  width: 350px;
+  height: 280px;
+}
+.title-form{
+  font-size: 16px;
+}
+
+.img-about {
+  width: 350px;
+  height: 370px;
+
+}
+.subtitle-text{
+  font-size: 15px;
+}
+
+.text-t{
+   font-size: 23px;
+}
+.parrafo-p{
+   font-size: 15px;
+}
+.thumbnail-img {
+  width: 50px;
+  height: 50px;
+}
+
+.tab button {
+  background: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: 0.3s;
+  width: 170px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.img-lateral{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+ }
+
+
+@media only screen and (min-width: 1399.98px) { 
+    .img-hero{
+        width: 80px;
+        height: 80px;
+    }
+    
+.hero{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+video{
+  width: 100%;
+ 
+}
+
+.absolute{
+  width: 100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  
+}
+ 
+.font-principal{
+
+  font-size: 45px;
+
+}
+.text-p {
+  font-size: 12px;
+}
+
+.form{
+  width: 360px;
+  height: 380px;
+}
+.title-form{
+  font-size: 18px;
+}
+
+.img-about {
+  width: 150px;
+  height: 180px;
+
+}
+.subtitle-text{
+  font-size: 7px;
+}
+
+.text-t{
+   font-size: 14px;
+}
+.parrafo-p{
+   font-size: 9px;
+}
+.thumbnail-img {
+  width: 10px;
+  height: 10px;
+}
+.tab button {
+  background: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: 0.3s;
+  width: 180px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.img-lateral{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+ }
